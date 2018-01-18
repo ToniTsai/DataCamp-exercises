@@ -3,7 +3,7 @@ In the previous exercise, you used read_csv() to read in DataFrame chunks from a
 To process the data, you will create another DataFrame composed of only the rows from a specific country. You will then zip together two of the columns from the new DataFrame, 'Total Population' and 'Urban population (% of total)'. Finally, you will create a list of tuples from the zip object, where each tuple is composed of a value from each of the two columns mentioned.
 You're going to use the data from 'ind_pop_data.csv', available in your current directory. Pandas has been imported as pd.
 """
-
+import pandas as pd
 # Initialize reader object: urb_pop_reader
 urb_pop_reader = pd.read_csv('ind_pop_data.csv', chunksize = 1000)
 
@@ -24,3 +24,4 @@ pops_list = list(pops)
 
 # Print pops_list
 print(pops_list)
+

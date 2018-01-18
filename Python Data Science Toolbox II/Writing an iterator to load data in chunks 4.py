@@ -3,7 +3,8 @@ In the previous exercises, you've only processed the data from the first DataFra
 
 You're going to use the data from 'ind_pop_data.csv', available in your current directory. The packages pandas and matplotlib.pyplot have been imported as pd and plt respectively for your use.
 """
-
+import pandas as pd
+import matplotlib.pyplot as plt
 # Initialize reader object: urb_pop_reader
 urb_pop_reader = pd.read_csv('ind_pop_data.csv', chunksize=1000)
 
