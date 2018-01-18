@@ -11,6 +11,11 @@ After you are done, take a moment to look at the plots and reflect on the new sk
 https://www.kaggle.com/worldbank/world-development-indicators
 """
 # Define plot_pop()
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
 def plot_pop(filename, country_code):
 
     # Initialize reader object: urb_pop_reader
