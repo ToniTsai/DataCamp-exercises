@@ -5,8 +5,10 @@ Import the first 5 rows of the file into a DataFrame using the function pd.read_
 Build a numpy array from the resulting DataFrame in data and assign to data_array. Execute print(type(data_array)) to print the datatype of data_array.
 """
 import pandas as pd
+import numpy as np
 # Assign the filename: file
 file = 'digits.csv'
+
 
 # Read the first 5 rows of the file into a DataFrame: data
 data = pd.read_csv(file, nrows = 5, header = None)
@@ -15,4 +17,5 @@ data = pd.read_csv(file, nrows = 5, header = None)
 data_array = np.array(data.values)
 
 # Print the datatype of data_array to the shell
+print(data_array)
 print(type(data_array))
