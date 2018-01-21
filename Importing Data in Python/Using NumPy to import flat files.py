@@ -6,10 +6,10 @@ The second will be the delimiter which, in this case, is a comma.
 Fill in the arguments of np.loadtxt() by passing file and a comma ',' for the delimiter.
 Fill in the argument of print() to print the type of the object digits. Use the function type().
 Execute the rest of the code to visualize one of the rows of the data.
-
 """
 # Import package
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Assign filename to variable: file
 file = 'digits.csv'

@@ -10,6 +10,10 @@ Complete the second call to np.loadtxt(). The file you're importing is tab-delim
 Print the 10th element of data_float by completing the print() command. Be guided by the previous print() call.
 Execute the rest of the code to visualize the data.
 """
+
+import numpy as np
+import matplotlib.pyplot as plt
+
 # Assign filename: file
 file = 'seaslug.txt'
 
