@@ -5,7 +5,7 @@ import pandas as pd
 url = 'http://s3.amazonaws.com/assets.datacamp.com/course/importing_data_into_r/latitude.xls'
 
 # Read in all sheets of Excel file: xl
-xl = pd.read_excel(url, sheetname = None)
+xl = pd.read_excel(url, sheet_name = None)
 
 # Print the sheetnames to the shell
 print(xl.keys())

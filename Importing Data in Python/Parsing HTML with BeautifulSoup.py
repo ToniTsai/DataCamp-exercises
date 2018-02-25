@@ -15,7 +15,7 @@ html_doc = r.text
 soup = BeautifulSoup(html_doc)
 
 # Prettify the BeautifulSoup object: pretty_soup
-pretty_soup = prettify(soup)
+pretty_soup = soup.prettify()
 
 # Print the response
 print(pretty_soup)
