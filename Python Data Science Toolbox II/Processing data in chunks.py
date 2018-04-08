@@ -1,3 +1,4 @@
+
 # Open a connection to the file
 with open('world_dev_ind.csv') as file:
 
