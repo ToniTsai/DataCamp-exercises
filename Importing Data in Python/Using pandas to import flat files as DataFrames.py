@@ -7,7 +7,7 @@ Build a numpy array from the resulting DataFrame in data and assign to data_arra
 import pandas as pd
 import numpy as np
 # Assign the filename: file
-file = 'digits.csv'
+file = 'Data/digits.csv'
 
 
 # Read the first 5 rows of the file into a DataFrame: data

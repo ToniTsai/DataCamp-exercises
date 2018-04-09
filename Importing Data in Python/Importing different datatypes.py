@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Assign filename: file
-file = 'seaslug.txt'
+file = 'Data/seaslug.txt'
 
 # Import file: data
 data = np.loadtxt(file, delimiter='\t', dtype=str)

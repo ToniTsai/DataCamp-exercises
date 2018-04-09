@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Assign filename to variable: file
-file = 'digits.csv'
+file = 'Data/digits.csv'
 
 # Load file as array: digits
 digits = np.loadtxt(file, delimiter=',')

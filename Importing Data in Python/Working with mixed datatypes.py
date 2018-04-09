@@ -7,11 +7,10 @@ Run the remaining code to print the first three entries of the resulting array d
 import numpy as np
 
 # Assign the filename: file
-file = 'titanic_sub.csv'
+file = 'Data/titanic_sub.csv'
 
 # Import file using np.recfromcsv: d
 d = np.recfromcsv(file, delimiter = ',', names = True, dtype = None)
 
 # Print out first three entries of d
 print(d[:3])
-

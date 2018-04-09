@@ -2,7 +2,7 @@
 import json
 
 # String of path to file: tweets_data_path
-tweets_data_path = 'tweets.txt'
+tweets_data_path = 'Data/tweets.txt'
 
 # Initialize empty list to store tweets: tweets_data
 tweets_data = []
